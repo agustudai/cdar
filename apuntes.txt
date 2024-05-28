@@ -1,0 +1,28 @@
+Dpro = propagacion    = formula L/V = Longitud/Velocidad de señal
+
+Tb   = tiempo de bit  = formula 1bit / Vt
+
+Vt   = Velocidad de transmision =  formula = 1b/Tb
+  
+
+
+Dpro + Tb = Dpro + 1b/Vt
+
+¿Cual es la capacidad de buffer del canal?
+
+ capacidad = dprop * vt 
+-------------------------------------------------------------------
+¿Tiempo para que un bit sea recibido en destino?
+
+dprop + Tb       o       dprop + 1bit / vt
+
+¿Tiempo para que los 1000 bytes lleguen? frame completo!
+ 
+dprop + n * Tb        o        dprop + n bit / vt
+--------------------------------------------------------------------
+cuando comienza a llegar el primer bit?
+Dprop
+
+Cuando termina de llegar el primer bit?
+
+dpro + Tb = dpro+ 1b/vt

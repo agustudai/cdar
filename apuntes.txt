@@ -1,3 +1,8 @@
+ Unidades de tiempo | Segundos
+1 Milisegundo       | 0,001
+1 Microsegundo(us)  | 0,000001 = 1 * 10 -6
+1 nanosegundo       | 0,000000001 = 10 - 9
+
 Dpro = propagacion    = formula L/V = Longitud/Velocidad de señal
 
 Tb   = tiempo de bit  = formula 1bit / Vt
